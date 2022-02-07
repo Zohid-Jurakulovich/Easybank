@@ -1,0 +1,22 @@
+@mixin list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin request-link {
+  padding: 8px 36px 8px 33px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  transition: opacity 0.5s ease;
+
+  &:hover{
+    opacity: 0.4;
+  }
+}

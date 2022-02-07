@@ -1,0 +1,92 @@
+.hero{
+  position: relative;
+  z-index: 1;
+  padding: 250px 0 170px 0;
+}
+.hero__mobile-img{
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero__heading{
+  max-width: 394px;
+  width: 100%;
+}
+
+.hero__title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px; 
+  color: #2D314D;
+}
+
+.hero__summary{
+  max-width: 447px;
+  width: 100%;
+}
+
+.hero__text{
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.hero__link{
+  @include request-link;
+  display: inline-block;
+}
+
+.hero__img{
+  position: absolute;
+  z-index: 2;
+  top: calc(50% + -540px);
+  left: calc(50% - 60px); 
+}
+
+@media only screen and (max-width:426px){
+
+  .hero{
+    padding-top: 392px;
+    padding-bottom: 88px;
+    background-image: url(../images/phones-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top calc(50% + -220px) left calc(50% - -175px);
+  }
+
+  .hero__description{
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+  .hero__title{
+    margin-bottom: 16px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+  }
+  
+  .hero__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+  }
+
+  .hero__img{
+    display: none;
+  }
+  
+  
+}

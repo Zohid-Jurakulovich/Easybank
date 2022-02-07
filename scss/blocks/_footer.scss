@@ -1,0 +1,174 @@
+.footer{
+  padding: 48px 0;
+  background-color: #2D314D;
+}
+
+.footer__box{
+  display: flex;
+}
+
+.footer__head{
+  margin-right: 131px;
+  
+}
+
+.footer__logo-link{
+  display: inline-block;
+  margin-bottom: 55px;
+}
+
+.media{
+  @include list;
+  display: flex;
+  align-items: center;
+  width: 154px;
+}
+
+
+
+.media__item + .media__item{
+  margin-left: 13.33px;
+}
+
+.media__link{
+  color: #fff;
+  transition: color 0.5s ease;
+  
+  &:hover{
+    color: #30C88F;
+  }
+}
+
+.middle__list{
+  @include list;
+}
+
+.middle__item{
+  width: 160px;
+}
+
+.middle__item + .middle__item{
+  margin-left: 30px;
+}
+
+.middle__sublist{
+  @include list;
+  flex-direction: column;
+}
+
+.middle__subitem:nth-child(2){
+  margin: 8px 0;
+}
+
+.middle__link{
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.7s ease;
+  
+  &:hover{
+    color: #30C88F;
+  }
+}
+
+.footer__end{
+  margin-left: auto;
+  text-align: end
+}
+
+.footer__request-link{
+  @include request-link;
+  display: inline-block;
+  margin-bottom: 24px;
+  
+}
+
+.footer__copyrights{
+  display: block;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  
+}
+
+@media only screen and (max-width:426px){
+  
+  .footer{
+    padding: 40px 0;
+  }
+  
+  .footer__box{
+    max-width: 327px;
+    flex-direction: column;
+  }
+  
+  .footer__head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 327px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  
+  .footer__logo-link{
+    margin-bottom: 32.3px;
+  }
+  
+  .media{
+    max-width: 185px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  
+  
+  .media__item + .media__item{
+    margin-left: 16px;
+  }
+  
+  .middle{
+    max-width: 327px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  
+  
+  .middle__list{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .middle__item{
+    max-width: 160px;
+    margin: 0 auto;
+  }
+  
+  .middle__item + .middle__item{
+    margin: 0 auto;
+  }
+  
+  .footer__end{
+    max-width: 327px;
+    width: 100%;
+    margin: 0;
+    text-align: center
+  }
+  
+  .footer__request-link{
+    @include request-link;
+    display: inline-block;
+    margin-bottom: 24px;
+    
+  }
+  
+  .footer__copyrights{
+    text-align: center;
+  }
+  
+  
+}
