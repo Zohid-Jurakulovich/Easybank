@@ -134,6 +134,7 @@
   .why__heading{
     max-width: 327px;
     width: 100%;
+  margin: 0 auto;  
   }
   
   .why__title{
@@ -148,6 +149,7 @@
   .why__summary{
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
   }
   
   .why__text{
@@ -164,6 +166,7 @@
   .why__item{
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
     padding-top: 96px;
     text-align: center;
     
@@ -200,7 +203,7 @@
   
   .why__item + .why__item{
     margin: 0;
-    margin-top: 32px;
+    margin: 32px auto 0;
   }
   
   

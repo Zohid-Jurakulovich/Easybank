@@ -752,6 +752,7 @@ img {
   .why__heading {
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
   }
   .why__title {
     margin-bottom: 14px;
@@ -764,6 +765,7 @@ img {
   .why__summary {
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
   }
   .why__text {
     font-size: 15px;
@@ -780,6 +782,7 @@ img {
   .why__item {
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
     padding-top: 96px;
     text-align: center;
   }
@@ -797,7 +800,7 @@ img {
   }
   .why__item + .why__item {
     margin: 0;
-    margin-top: 32px;
+    margin: 32px auto 0;
   }
   .why__subtitle {
     margin-bottom: 16px;
@@ -908,6 +911,7 @@ img {
   .article__main-title {
     max-width: 327px;
     width: 100%;
+    margin: 0 auto;
   }
   .article__title {
     margin-bottom: 40px;
@@ -922,6 +926,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 auto;
   }
   .article__item {
     max-width: 327px;
@@ -1088,6 +1093,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 auto;
   }
   .footer__head {
     display: -webkit-box;
